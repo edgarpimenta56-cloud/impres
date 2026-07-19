@@ -1,0 +1,12 @@
+{
+  "title": "Arte e Cultura — Sistema de Empréstimos",
+  "description": "Sistema de controle de empréstimos de equipamentos culturais: instrumentos musicais, materiais de arte, audiovisual e mobiliário.",
+  "language": "pt-BR",
+  "robots": {
+    "index": true
+  },
+  "accessibility": {
+    "addBypassLinks": true,
+    "ignoreReducedMotion": false
+  }
+}
