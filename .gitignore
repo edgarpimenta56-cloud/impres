@@ -1,0 +1,23 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# Figma Make runtime binaries (not needed for deployment)
+.figma/make/dev
+.figma/make/install
+.figma/make/deploy
+.figma/make/deploy-preview
+.figma/make/langserver
+.figma/make/analyze-routes
+.figma/make/format
+.figma/make/dev.json

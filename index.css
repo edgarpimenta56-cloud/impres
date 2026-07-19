@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+:root {
+  --background: #f4f5f7;
+  --foreground: #111318;
+  --card: #ffffff;
+  --card-foreground: #111318;
+  --primary: #1a1f2e;
+  --primary-foreground: #ffffff;
+  --secondary: #e8eaef;
+  --secondary-foreground: #3d4354;
+  --muted: #eceef2;
+  --muted-foreground: #6b7280;
+  --accent: #e84b2b;
+  --accent-foreground: #ffffff;
+  --border: #dde0e8;
+  --ring: #1a1f2e;
+  --radius: 6px;
+  --sidebar: #1a1f2e;
+  --sidebar-foreground: #b8bed0;
+  --sidebar-active: #ffffff;
+  --sidebar-accent: #e84b2b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+input, select, textarea {
+  font-family: var(--font-sans);
+}
